@@ -269,7 +269,7 @@ body {
 
 @media (max-width: 690px) {
   .first-hero {
-    background-image: url("../manus-storage/key-theme.jpg") !important;
+    background-image: url("./key-theme.jpg") !important;
     background-position: 62% center !important;
   }
 
@@ -492,7 +492,7 @@ body { background: var(--cream) !important; }
 .logo-rain { opacity: .13; }
 
 @media (max-width: 690px) {
-  .first-hero { background-image: url("../manus-storage/key-theme.jpg") !important; background-position: 62% center !important; }
+  .first-hero { background-image: url("./key-theme.jpg") !important; background-position: 62% center !important; }
   .first-hero::before { background: linear-gradient(110deg, rgba(247,253,255,.98) 0%, rgba(247,253,255,.91) 58%, rgba(247,253,255,.42) 100%) !important; }
   .brand-first { width: 88px !important; }
 }

@@ -5,7 +5,7 @@ Ready-to-upload static website, adapted from the Dar Aldawa Control guide.
 ## Upload
 
 1. Extract this ZIP.
-2. Upload **the extracted contents**, including `index.html`, `404.html`, `assets/`, and `manus-storage/`, to the root of `Dar-Aldawa-Marketing/Key-Symposium`. Do not upload the ZIP itself or wrap these files in another folder.
+2. Upload **the extracted contents**, including `index.html`, `404.html`, all CSS/JS files and all images, to the root of `Dar-Aldawa-Marketing/Key-Symposium`. All files in this edition belong in the repository root. Upload them together and replace matching existing files. Do not upload the ZIP itself or wrap the files in another folder.
 3. In the repository's **Settings → Pages**, choose **Deploy from a branch**, then **main** and **/(root)**, and save.
 4. The expected address is https://dar-aldawa-marketing.github.io/Key-Symposium/ once GitHub Pages completes deployment.
 
@@ -29,4 +29,10 @@ Weather: https://open-meteo.com/ . Exchange rates: https://www.exchangerate-api.
 
 ## Verification
 
-JavaScript syntax, all local asset paths, page data, phone/WhatsApp normalization, forecast-city selection, converter calculations and calendar timestamps checked. Visual browser verification and live API requests were unavailable in the authoring environment.
+All eight pages mounted successfully using the full bundled React runtime in a DOM test environment. Location category changes, city selection, conversion, phone/WhatsApp links and all packaged asset paths checked. Visual browser verification was unavailable in the authoring environment. Weather and currency responses were exercised with test fixtures.
+
+## Venue photographs
+
+All 16 venue/activity cards use newly sourced Tunisian photographs packaged in this ZIP. Each card links to its image source. Hotel and most restaurant pictures are from their official sites. Marina Barberousse and Medina Barberousse photographs use the venue listings linked on their cards. Tourist sights use Discover Tunisia and Wikimedia Commons. The catamaran image illustrates the activity and does not identify a confirmed booked vessel.
+
+Ribat de Sousse photograph: Fehmi bouguezzi, CC BY-SA 4.0, resized. Source: https://commons.wikimedia.org/wiki/File:Ribat_de_Sousse_13.JPG . License: https://creativecommons.org/licenses/by-sa/4.0/ .

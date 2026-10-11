@@ -8,3 +8,7 @@
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}.logo-rain{display:none}}
 
 .speaker-portraits{grid-template-columns:1fr;max-width:600px}.source-downloads,.programme-download{display:block;margin-top:1rem;font-size:.8rem;text-decoration:underline;color:var(--teal-deep)}
+
+.venue-photo{height:225px;overflow:hidden;position:relative}.venue-photo img{display:block;width:100%;height:100%;object-fit:cover}.photo-source{font-size:.64rem!important;line-height:1.5!important;color:var(--muted);margin:.7rem 0}.photo-source a{text-decoration:underline}.venue-card-content{min-width:0}.venue-card-content h3{overflow-wrap:anywhere}
+
+.startup-card{max-width:600px;margin:10vh auto;padding:2rem;text-align:center;background:#fafdff;border:1px solid #cde8ef}.startup-card img{max-width:220px}.startup-card h1{font-size:2.5rem}.startup-card a{display:inline-block;padding:1rem;background:#164f68;color:white}
