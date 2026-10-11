@@ -33,6 +33,9 @@ All eight pages mounted successfully using the full bundled React runtime in a D
 
 ## Venue photographs
 
-All 16 venue/activity cards use newly sourced Tunisian photographs packaged in this ZIP. Each card links to its image source. Hotel and most restaurant pictures are from their official sites. Marina Barberousse and Medina Barberousse photographs use the venue listings linked on their cards. Tourist sights use Discover Tunisia and Wikimedia Commons. The catamaran image illustrates the activity and does not identify a confirmed booked vessel.
+All 16 venue/activity cards use newly sourced Tunisian photographs packaged in this ZIP. Each card links to its image source. Hotel and most restaurant pictures are from their official sites. Barberousse Beach Club uses its official seaside photograph; Medina Barberousse uses the venue listing linked on its card. Tourist sights use Discover Tunisia and Wikimedia Commons. The catamaran image illustrates the activity and does not identify a confirmed booked vessel.
 
 Ribat de Sousse photograph: Fehmi bouguezzi, CC BY-SA 4.0, resized. Source: https://commons.wikimedia.org/wiki/File:Ribat_de_Sousse_13.JPG . License: https://creativecommons.org/licenses/by-sa/4.0/ .
+
+
+October 11 update: Speaker singular; agenda cards styled after the supplied reference; Call actions removed; borderless blended logos. Welcome dinner uses Barberousse Beach Club on Yasmine Hammamet beach (between Marco Polo and Le Royal), based on the organiser’s correction. The supplied original PDF still retains its original Marina wording. Photo: https://barberoussebeachclub.com/ .

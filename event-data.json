@@ -65,8 +65,8 @@
           "id": "day-1-7",
           "time": "20:40",
           "endTime": "22:40",
-          "title": "Dinner at Le Barberousse Marina Yasmine",
-          "location": "Le Barberousse Marina Yasmine",
+          "title": "Dinner at Barberousse Beach Club · Yasmine Hammamet",
+          "location": "Barberousse Beach Club · Yasmine Hammamet",
           "date": "20261015",
           "category": "Dining"
         }
@@ -480,15 +480,15 @@
       "id": "restaurants",
       "label": "Restaurants",
       "title": "Shared tables",
-      "description": "The restaurants in your supplied programme.",
+      "description": "Restaurants in the order of your programme: 15–18 October.",
       "venues": [
         {
-          "name": "Barberousse Marina · Yasmine Hammamet",
-          "detail": "15 Oct · Welcome dinner.",
-          "map": "https://www.google.com/maps/search/?api=1&query=Barberousse%20Marina%20Yasmine%20Hammamet%20Tunisia",
-          "photo": "venue-marina-real.jpg",
-          "photoAlt": "Barberousse Marina · Yasmine Hammamet",
-          "photoSource": "https://es.restaurantguru.com/La-Bouillabaisse-Hammamet"
+          "name": "Barberousse Beach Club · Yasmine Hammamet",
+          "detail": "15 Oct · Welcome dinner · On the sandy beach between Marco Polo and Le Royal hotels.",
+          "map": "https://www.google.com/maps/search/?api=1&query=Barberousse+Beach+Club+Yasmine+Hammamet&query_place_id=ChIJ02lgzZRj_RIRzdnHF5j3Hhs",
+          "photo": "venue-barberousse-beach.jpg",
+          "photoAlt": "Barberousse Beach Club seaside terrace on Yasmine Hammamet beach",
+          "photoSource": "https://barberoussebeachclub.com/"
         },
         {
           "name": "Le Méditerranée · Port El Kantaoui",
@@ -536,7 +536,7 @@
       "id": "activities",
       "label": "Activities",
       "title": "Beyond the meeting",
-      "description": "The cultural and leisure stops on your itinerary.",
+      "description": "Activities in visit order: Sousse, Tunis, Carthage, Sidi Bou Said, Nabeul and Hammamet.",
       "venues": [
         {
           "name": "Sousse Old City",

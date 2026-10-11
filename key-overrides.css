@@ -12,3 +12,34 @@
 .venue-photo{height:225px;overflow:hidden;position:relative}.venue-photo img{display:block;width:100%;height:100%;object-fit:cover}.photo-source{font-size:.64rem!important;line-height:1.5!important;color:var(--muted);margin:.7rem 0}.photo-source a{text-decoration:underline}.venue-card-content{min-width:0}.venue-card-content h3{overflow-wrap:anywhere}
 
 .startup-card{max-width:600px;margin:10vh auto;padding:2rem;text-align:center;background:#fafdff;border:1px solid #cde8ef}.startup-card img{max-width:220px}.startup-card h1{font-size:2.5rem}.startup-card a{display:inline-block;padding:1rem;background:#164f68;color:white}
+
+/* Spacious itinerary cards from the organiser's reference. */
+.agenda-calendar-sheet{background:white;border:1px solid #dddde7;border-top:1px solid #dddde7}
+.calendar-sheet-header,.agenda-order{display:none!important}
+.agenda-row{display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:1.25rem!important;padding:2.6rem 2.7rem!important;background:white;align-items:start}
+.agenda-row:hover{background:#fcfdfd}
+.agenda-time{grid-column:1!important;display:flex!important;align-items:center;gap:1rem;min-width:0}
+.agenda-time svg{width:25px;height:25px;color:#e6aabd;flex-shrink:0}
+.agenda-time strong{font-family:Georgia,serif;font-weight:700;font-size:clamp(2.6rem,5vw,4.3rem)!important;line-height:1;letter-spacing:-.04em;overflow-wrap:normal}
+.agenda-time small{font:400 clamp(.95rem,2vw,1.5rem)/1.2 Arial,sans-serif;color:#717986}
+.agenda-event{grid-column:1!important;min-width:0}
+.agenda-event>div{gap:.9rem 1.2rem;margin-bottom:1.2rem}
+.agenda-tag{font-size:.8rem;padding:.55rem .8rem;border-radius:7px;letter-spacing:.08em}
+.agenda-location{font-size:1rem!important;max-width:100%!important;white-space:normal!important;overflow:visible!important;gap:.5rem;line-height:1.5}
+.agenda-location svg{width:22px;height:22px;flex-shrink:0}
+.agenda-event h3{font-family:Georgia,serif;font-size:clamp(1.8rem,3.5vw,3.1rem)!important;font-weight:700;line-height:1.14;letter-spacing:-.035em;margin:0;text-wrap:balance}
+.agenda-row .calendar-action{grid-column:1!important;grid-row:auto!important;justify-self:start;background:white;color:#302b73;border:2px solid #c4dbd9;border-radius:0;padding:.85rem 1.2rem;margin-top:.4rem;font-size:1rem;display:inline-flex;align-items:center;gap:.7rem;min-height:58px}
+.agenda-row .calendar-action svg{width:26px;height:26px}
+.agenda-row .calendar-pending{grid-column:1;text-align:left}
+/* Logos sit directly on the page with no picture frames. */
+.brand-lockup{border:0!important;background:transparent!important;box-shadow:none!important}
+.brand-divider{display:none}
+.brand-dar,.brand-first,.hero-brand-row img,.hero-first-logo,.letter-head img,.letter-logo,.letter-hero>img{border:0!important;outline:0!important;border-radius:0!important;box-shadow:none!important;background:transparent!important;mix-blend-mode:multiply!important;filter:contrast(1.13)}
+.venue-order-list{list-style:none;padding:0;margin:0 0 2rem;border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 1.5rem}
+.venue-order-list li{border-bottom:1px solid var(--line)}
+.venue-order-list a{display:flex;gap:.85rem;align-items:baseline;padding:.85rem .2rem;font-size:.88rem;line-height:1.4}
+.venue-order-list b{color:var(--teal);font-size:.68rem;min-width:1.3rem}
+.venue-order-list a:hover span{text-decoration:underline}
+.venue-card{scroll-margin-top:100px}
+.venue-photo{height:275px}.venue-photo>span{position:absolute;top:1rem;left:1rem;background:white;color:var(--ink);padding:.4rem .6rem;font-size:.8rem;font-weight:700}
+@media(max-width:690px){.agenda-row{padding:1.7rem 1.25rem!important;gap:1rem!important}.agenda-time{gap:.7rem}.agenda-time strong{font-size:3rem!important}.agenda-time small{font-size:1rem}.agenda-event h3{font-size:2rem!important}.agenda-tag{font-size:.7rem}.agenda-location{font-size:.9rem!important}.agenda-event>div{gap:.6rem .8rem;margin-bottom:.9rem}.agenda-row .calendar-action{font-size:.95rem;padding:.75rem 1rem}.venue-order-list{grid-template-columns:1fr}.venue-photo{height:255px}}
