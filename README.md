@@ -39,3 +39,5 @@ Ribat de Sousse photograph: Fehmi bouguezzi, CC BY-SA 4.0, resized. Source: http
 
 
 October 11 update: Speaker singular; agenda cards styled after the supplied reference; Call actions removed; borderless blended logos. Welcome dinner uses Barberousse Beach Club on Yasmine Hammamet beach (between Marco Polo and Le Royal), based on the organiser’s correction. The supplied original PDF still retains its original Marina wording. Photo: https://barberoussebeachclub.com/ .
+
+Layout correction: compact TIME / ITINERARY / ADD table; venue names appear within each photo card. Removed the separate venue-name list and fixed photograph overlap.

@@ -13,33 +13,45 @@
 
 .startup-card{max-width:600px;margin:10vh auto;padding:2rem;text-align:center;background:#fafdff;border:1px solid #cde8ef}.startup-card img{max-width:220px}.startup-card h1{font-size:2.5rem}.startup-card a{display:inline-block;padding:1rem;background:#164f68;color:white}
 
-/* Spacious itinerary cards from the organiser's reference. */
-.agenda-calendar-sheet{background:white;border:1px solid #dddde7;border-top:1px solid #dddde7}
-.calendar-sheet-header,.agenda-order{display:none!important}
-.agenda-row{display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:1.25rem!important;padding:2.6rem 2.7rem!important;background:white;align-items:start}
-.agenda-row:hover{background:#fcfdfd}
-.agenda-time{grid-column:1!important;display:flex!important;align-items:center;gap:1rem;min-width:0}
-.agenda-time svg{width:25px;height:25px;color:#e6aabd;flex-shrink:0}
-.agenda-time strong{font-family:Georgia,serif;font-weight:700;font-size:clamp(2.6rem,5vw,4.3rem)!important;line-height:1;letter-spacing:-.04em;overflow-wrap:normal}
-.agenda-time small{font:400 clamp(.95rem,2vw,1.5rem)/1.2 Arial,sans-serif;color:#717986}
-.agenda-event{grid-column:1!important;min-width:0}
-.agenda-event>div{gap:.9rem 1.2rem;margin-bottom:1.2rem}
-.agenda-tag{font-size:.8rem;padding:.55rem .8rem;border-radius:7px;letter-spacing:.08em}
-.agenda-location{font-size:1rem!important;max-width:100%!important;white-space:normal!important;overflow:visible!important;gap:.5rem;line-height:1.5}
-.agenda-location svg{width:22px;height:22px;flex-shrink:0}
-.agenda-event h3{font-family:Georgia,serif;font-size:clamp(1.8rem,3.5vw,3.1rem)!important;font-weight:700;line-height:1.14;letter-spacing:-.035em;margin:0;text-wrap:balance}
-.agenda-row .calendar-action{grid-column:1!important;grid-row:auto!important;justify-self:start;background:white;color:#302b73;border:2px solid #c4dbd9;border-radius:0;padding:.85rem 1.2rem;margin-top:.4rem;font-size:1rem;display:inline-flex;align-items:center;gap:.7rem;min-height:58px}
-.agenda-row .calendar-action svg{width:26px;height:26px}
-.agenda-row .calendar-pending{grid-column:1;text-align:left}
+/* Compact itinerary table matching the supplied desktop reference. */
+.agenda-calendar-sheet{border:1px solid var(--line);border-top:5px solid var(--teal);background:var(--paper)}
+.calendar-sheet-header{display:grid!important;grid-template-columns:196px minmax(0,1fr) 92px;gap:1rem;padding:.9rem 1.25rem;background:#e8f0e8;color:var(--teal-deep);font-size:.6rem;letter-spacing:.1em}
+.agenda-row{display:grid!important;grid-template-columns:35px 145px minmax(0,1fr) 92px!important;align-items:center!important;gap:1rem!important;padding:1.45rem 1.25rem!important;background:var(--paper)}
+.agenda-row:nth-child(odd){background:#edf5ed}.agenda-row:hover{background:#e7f1ee}
+.agenda-order{display:block!important;grid-column:1!important;grid-row:1!important;color:var(--teal);font-size:.7rem;font-weight:800}
+.agenda-time{grid-column:2!important;grid-row:1!important;display:grid!important;grid-template-columns:20px minmax(0,1fr);align-items:start;gap:.15rem .45rem}
+.agenda-time svg{grid-column:1;grid-row:1 / span 2;width:17px;height:17px;color:#ff3e62}
+.agenda-time strong{grid-column:2;font-family:Georgia,serif;font-size:1.35rem!important;font-weight:700;line-height:1.1;letter-spacing:-.045em}
+.agenda-time small{grid-column:2;color:var(--muted);font-size:.65rem}
+.agenda-event{grid-column:3!important;grid-row:1!important;min-width:0}
+.agenda-event>div{display:flex;flex-wrap:wrap;gap:.5rem .8rem;margin-bottom:.65rem}
+.agenda-tag{font-size:.56rem;padding:.3rem .5rem;border-radius:3px;letter-spacing:.08em}
+.agenda-location{font-size:.67rem!important;max-width:100%!important;white-space:normal!important;overflow:visible!important;line-height:1.4;gap:.3rem}
+.agenda-location svg{width:14px;height:14px;flex-shrink:0}
+.agenda-event h3{font-family:Georgia,serif;font-size:1.45rem!important;font-weight:600;line-height:1.2;letter-spacing:-.035em;margin:0;text-wrap:balance}
+.agenda-row .calendar-action{grid-column:4!important;grid-row:1!important;justify-self:end;align-self:center;background:var(--paper);color:var(--teal-deep);border:1px solid #b9d9d6;border-radius:0;padding:.65rem .8rem;margin:0;font-size:.65rem;display:inline-flex;align-items:center;gap:.45rem;min-height:40px}
+.agenda-row .calendar-action svg{width:17px;height:17px}.agenda-row .calendar-action:hover{background:var(--teal);color:white}
+.agenda-row .calendar-pending{grid-column:4;text-align:center;font-size:.57rem}
+@media(max-width:690px){
+.calendar-sheet-header{grid-template-columns:84px minmax(0,1fr) 60px;gap:.65rem;padding:.75rem .8rem;font-size:.5rem}
+.agenda-row{grid-template-columns:84px minmax(0,1fr)!important;gap:.7rem .65rem!important;padding:1.1rem .8rem!important;align-items:start!important}
+.agenda-order{display:none!important}.agenda-time{grid-column:1!important;grid-row:1!important;grid-template-columns:14px minmax(0,1fr);gap:.15rem .3rem}.agenda-time svg{width:13px;height:13px}.agenda-time strong{font-size:1.05rem!important;overflow-wrap:anywhere}.agenda-time small{font-size:.58rem}
+.agenda-event{grid-column:2!important;grid-row:1!important}.agenda-event h3{font-size:1.17rem!important}.agenda-event>div{gap:.35rem .5rem;margin-bottom:.5rem}.agenda-location{font-size:.6rem!important}.agenda-tag{font-size:.49rem;padding:.25rem .4rem}
+.agenda-row .calendar-action{grid-column:2!important;grid-row:2!important;justify-self:start;min-height:36px;font-size:.6rem;padding:.5rem .65rem}.agenda-row .calendar-pending{grid-column:2;text-align:left}
+.calendar-sheet-header span:last-child{display:none}
+}
 /* Logos sit directly on the page with no picture frames. */
 .brand-lockup{border:0!important;background:transparent!important;box-shadow:none!important}
 .brand-divider{display:none}
 .brand-dar,.brand-first,.hero-brand-row img,.hero-first-logo,.letter-head img,.letter-logo,.letter-hero>img{border:0!important;outline:0!important;border-radius:0!important;box-shadow:none!important;background:transparent!important;mix-blend-mode:multiply!important;filter:contrast(1.13)}
-.venue-order-list{list-style:none;padding:0;margin:0 0 2rem;border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 1.5rem}
-.venue-order-list li{border-bottom:1px solid var(--line)}
-.venue-order-list a{display:flex;gap:.85rem;align-items:baseline;padding:.85rem .2rem;font-size:.88rem;line-height:1.4}
-.venue-order-list b{color:var(--teal);font-size:.68rem;min-width:1.3rem}
-.venue-order-list a:hover span{text-decoration:underline}
 .venue-card{scroll-margin-top:100px}
 .venue-photo{height:275px}.venue-photo>span{position:absolute;top:1rem;left:1rem;background:white;color:var(--ink);padding:.4rem .6rem;font-size:.8rem;font-weight:700}
-@media(max-width:690px){.agenda-row{padding:1.7rem 1.25rem!important;gap:1rem!important}.agenda-time{gap:.7rem}.agenda-time strong{font-size:3rem!important}.agenda-time small{font-size:1rem}.agenda-event h3{font-size:2rem!important}.agenda-tag{font-size:.7rem}.agenda-location{font-size:.9rem!important}.agenda-event>div{gap:.6rem .8rem;margin-bottom:.9rem}.agenda-row .calendar-action{font-size:.95rem;padding:.75rem 1rem}.venue-order-list{grid-template-columns:1fr}.venue-photo{height:255px}}
+/* Photo and heading occupy separate rows, preventing image overlap. */
+.venue-card{display:flex!important;flex-direction:column!important;grid-template-rows:none!important;overflow:hidden;padding:0}
+.venue-card .venue-photo{display:block!important;height:275px;flex:0 0 275px;position:relative;overflow:hidden}
+.venue-card .venue-photo img{width:100%;height:100%;object-fit:cover}
+.venue-card-content{display:flex;flex-direction:column;flex:1;min-height:190px;padding:1.25rem}
+.venue-card-content h3{position:relative;display:block;margin:0 0 .6rem;color:var(--ink);font-family:Georgia,serif;font-size:1.65rem;line-height:1.15;font-weight:600;max-width:100%}
+.venue-card-content>p{font-size:.78rem;line-height:1.55}
+.venue-card-content .venue-actions{margin-top:auto;padding-top:1rem}
+@media(max-width:690px){.venue-card .venue-photo{height:240px;flex-basis:240px}.venue-card-content h3{font-size:1.5rem}}
