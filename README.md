@@ -41,3 +41,13 @@ Ribat de Sousse photograph: Fehmi bouguezzi, CC BY-SA 4.0, resized. Source: http
 October 11 update: Speaker singular; agenda cards styled after the supplied reference; Call actions removed; borderless blended logos. Welcome dinner uses Barberousse Beach Club on Yasmine Hammamet beach (between Marco Polo and Le Royal), based on the organiser’s correction. The supplied original PDF still retains its original Marina wording. Photo: https://barberoussebeachclub.com/ .
 
 Layout correction: compact TIME / ITINERARY / ADD table; venue names appear within each photo card. Removed the separate venue-name list and fixed photograph overlap.
+
+12 October update: final-program.xlsx is the authoritative daily timetable. Day 2 visit order is Mall of Sousse, catamaran, lunch, Sousse Medina. Gathering is at 10:00 without a specified end time. Restaurant spellings checked against official websites: Barberousse Beach Club; Le Méditerranée; Sheherazade; Dar El Jeld; Dar Zarrouk; Le Barberousse. Individual scientific session times retain the supplied poster and are marked for confirmation because the final daily programme gives only the overall meeting window.
+
+Restaurant naming references:
+https://lemediterranee.com.tn/le-restaurant/
+https://www.dareljeld.com/gastronomie/
+https://www.darzarrouk.tn/en/
+https://www.medinahotelsandresorts.com/en
+https://www.barberoussebeachclub.com/Menu-barberoussebeachclub
+https://www.lebarberousse.com/
