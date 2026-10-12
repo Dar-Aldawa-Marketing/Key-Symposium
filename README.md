@@ -51,3 +51,5 @@ https://www.darzarrouk.tn/en/
 https://www.medinahotelsandresorts.com/en
 https://www.barberoussebeachclub.com/Menu-barberoussebeachclub
 https://www.lebarberousse.com/
+
+Latest organiser amendment: scientific meeting 18 October 10:00–14:00. Lunch 14:00–15:00, lobby gathering 15:00–15:30, afternoon programme shifted one hour, dinner 19:00–20:30. Individual scientific session durations are not assigned; the confirmed overall window is shown. Excel download removed.

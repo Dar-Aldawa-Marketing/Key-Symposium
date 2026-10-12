@@ -293,7 +293,7 @@
       "date": "18 Oct",
       "weekday": "Sunday",
       "title": "Science & Hammamet",
-      "note": "Timing confirmation needed: the daily programme lists the meeting until 13:00, while the scientific agenda runs until 14:30 and overlaps lunch and gathering. Please check with the event team.",
+      "note": "Scientific meeting from 10:00 to 14:00, followed by lunch, Nabeul and Hammamet. Afternoon activities start one hour later.",
       "events": [
         {
           "id": "day-4-1",
@@ -316,7 +316,7 @@
         {
           "id": "day-4-3",
           "time": "10:00",
-          "endTime": "13:00",
+          "endTime": "14:00",
           "title": "Scientific meeting",
           "location": "Hasdrubal Thalassa & Spa · Yasmine Hammamet",
           "date": "20261018",
@@ -324,8 +324,8 @@
         },
         {
           "id": "day-4-4",
-          "time": "13:00",
-          "endTime": "14:00",
+          "time": "14:00",
+          "endTime": "15:00",
           "title": "Lunch at the hotel and coffee break",
           "location": "Hasdrubal Thalassa & Spa · Yasmine Hammamet",
           "date": "20261018",
@@ -333,8 +333,8 @@
         },
         {
           "id": "day-4-5",
-          "time": "14:00",
-          "endTime": "14:30",
+          "time": "15:00",
+          "endTime": "15:30",
           "title": "Gathering at the lobby",
           "location": "Hotel lobby",
           "date": "20261018",
@@ -342,8 +342,8 @@
         },
         {
           "id": "day-4-6",
-          "time": "14:30",
-          "endTime": "15:10",
+          "time": "15:30",
+          "endTime": "16:10",
           "title": "Transfer to Nabeul",
           "location": "Nabeul",
           "date": "20261018",
@@ -351,8 +351,8 @@
         },
         {
           "id": "day-4-7",
-          "time": "15:10",
-          "endTime": "16:10",
+          "time": "16:10",
+          "endTime": "17:10",
           "title": "Visit Nabeul, an important handicrafts center",
           "location": "Nabeul",
           "date": "20261018",
@@ -360,8 +360,8 @@
         },
         {
           "id": "day-4-8",
-          "time": "16:10",
-          "endTime": "16:30",
+          "time": "17:10",
+          "endTime": "17:30",
           "title": "Transfer to Hammamet Old City",
           "location": "Hammamet Medina",
           "date": "20261018",
@@ -369,8 +369,8 @@
         },
         {
           "id": "day-4-9",
-          "time": "16:30",
-          "endTime": "18:00",
+          "time": "17:30",
+          "endTime": "19:00",
           "title": "Hammamet Old City tour and free time",
           "location": "Hammamet Medina",
           "date": "20261018",
@@ -378,8 +378,8 @@
         },
         {
           "id": "day-4-10",
-          "time": "18:00",
-          "endTime": "19:30",
+          "time": "19:00",
+          "endTime": "20:30",
           "title": "Dinner at Le Barberousse",
           "location": "Le Barberousse · Hammamet Medina",
           "date": "20261018",
@@ -417,38 +417,20 @@
   ],
   "scientificAgenda": [
     {
-      "id": "science-0",
+      "id": "science-registration",
       "time": "09:30",
       "endTime": "10:00",
       "title": "Registration & Reception",
-      "location": "Hasdrubal Thalassa Hotel · Hammamet",
+      "location": "Hasdrubal Thalassa & Spa · Yasmine Hammamet",
       "date": "20261018",
       "category": "Meeting"
     },
     {
-      "id": "science-1",
+      "id": "science-meeting",
       "time": "10:00",
-      "endTime": "10:10",
-      "title": "Dar Aldawa presentation",
-      "location": "Hasdrubal Thalassa Hotel · Hammamet",
-      "date": "20261018",
-      "category": "Meeting"
-    },
-    {
-      "id": "lecture-hazem",
-      "time": "10:10",
-      "endTime": "14:10",
-      "title": "Buying for Better Care: Critical Thinking in Medical Procurement — Hazem Al-Amayreh, Pharmacist",
-      "location": "Hasdrubal Thalassa Hotel · Hammamet",
-      "date": "20261018",
-      "category": "Meeting"
-    },
-    {
-      "id": "science-3",
-      "time": "14:10",
-      "endTime": "14:30",
-      "title": "Questions & Answers",
-      "location": "Hasdrubal Thalassa Hotel · Hammamet",
+      "endTime": "14:00",
+      "title": "Scientific meeting — Dar Aldawa presentation, Hazem Al-Amayreh lecture and Q&A",
+      "location": "Hasdrubal Thalassa & Spa · Yasmine Hammamet",
       "date": "20261018",
       "category": "Meeting"
     }
@@ -533,7 +515,7 @@
         },
         {
           "name": "Le Barberousse · Hammamet Medina",
-          "detail": "18 Oct · 18:00–19:30 · Dinner.",
+          "detail": "18 Oct · 19:00–20:30 · Dinner.",
           "map": "https://www.google.com/maps/search/?api=1&query=Le%20Barberousse%20restaurant%20Hammamet%20Medina%20Tunisia",
           "photo": "venue-barberousse-real.jpg",
           "photoAlt": "Le Barberousse · Hammamet Medina",
@@ -606,7 +588,7 @@
         },
         {
           "name": "Nabeul",
-          "detail": "18 Oct · Handicrafts center.",
+          "detail": "18 Oct · 16:10–17:10 · Handicrafts center.",
           "map": "https://www.google.com/maps/search/?api=1&query=Souk%20de%20Nabeul%20Tunisia",
           "photo": "venue-nabeul-official.jpg",
           "photoAlt": "Nabeul ceramics",
@@ -614,7 +596,7 @@
         },
         {
           "name": "Hammamet Old City",
-          "detail": "18 Oct · Tour and free time.",
+          "detail": "18 Oct · 17:30–19:00 · Tour and free time.",
           "map": "https://www.google.com/maps/search/?api=1&query=Medina%20Hammamet%20Tunisia",
           "photo": "venue-hammamet3.jpg",
           "photoAlt": "Hammamet Medina and fort",
