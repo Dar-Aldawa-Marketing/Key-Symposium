@@ -53,3 +53,5 @@ https://www.barberoussebeachclub.com/Menu-barberoussebeachclub
 https://www.lebarberousse.com/
 
 Latest organiser amendment: scientific meeting 18 October 10:00–14:00. Lunch 14:00–15:00, lobby gathering 15:00–15:30, afternoon programme shifted one hour, dinner 19:00–20:30. Individual scientific session durations are not assigned; the confirmed overall window is shown. Excel download removed.
+
+15 October amendment: Day 2 breakfast 06:00–08:30; lobby gathering 08:30–09:00; transfer to Sousse 09:00–10:00; mall 10:00–11:45; catamaran 12:00–13:00; lunch 13:00–14:00; Sousse Medina 14:30–16:00; return to Hammamet 16:00–17:00; free time 17:00–19:00. Evening gathering, transfer and dinner retain their previous timings.
